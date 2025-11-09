@@ -7,9 +7,7 @@ public class subtractmul {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-        int r1 = product(n);
-        int r2 = addition(n);
-      int result = r1-r2;
+    int result = product(n)-addition(n);
         System.out.println(result);
     }
     static int product(int n){
